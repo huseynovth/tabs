@@ -1,0 +1,112 @@
+body{
+    background-color: antiquewhite;
+    overflow-y: hidden;
+}
+.conatainer{
+    margin: auto;
+    padding: auto;
+    background-color: white;
+    width: 350px;
+    height: 400px;
+}
+h1{
+    text-align: center;
+    color: rgba(73,72,74,255);
+}
+.tabs{
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+    background-color: rgba(228,232,233,255);
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+}
+img{
+    border-radius: 50%;
+}
+.conatainer{
+    border-radius: 15px;
+}
+button{
+    text-align: center;
+    width: 100%;
+    background-color: rgba(228,232,233,255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: rgba(73,72,74,255);
+}
+button:hover{
+    background-color: rgba(114,186,94,255);
+    transition: 0.4s;
+    color: white;
+}
+button:active{
+    color: white;
+}
+h3{
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    color: rgba(73,72,74,255);
+    top: 155px;
+    font-size: 15px;
+    padding-top: 10px;
+}
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.online{
+    float: right;
+    margin-top: 25px;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 10px;
+}
+p{
+    margin-top: 5px;
+    font-weight: 300;
+    font-size: 12px;
+}
+#online{
+    position: relative;
+    margin-top: -5px;
+    right: 45px;
+}
+#memati{
+    margin-top: 90px;
+}
+#cakir{
+    margin-top: 180px;
+}
+#offline{
+    background-color: gray;
+}
+.males{
+    opacity: 0;
+
+}
+
+#females{
+    margin-top: 19px;
+    position: relative;
+    top: -240px;
+}
+.armas{
+    position: relative;
+    top: -395px;
+} 
+ .females{
+    opacity: 0;
+}
+
+#chole{
+    margin-top: 180px;
+}
+
